@@ -1,0 +1,14 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "3gamesilver",
+  "compatibility_date": "2024-01-01",
+  "pages_build_output_dir": "./dist",
+  "compatibility_flags": ["nodejs_compat"],
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "lotto0124-db",
+      "database_id": "9481b5f9-5fc8-4cf4-89a1-ea1e0ee443a3"
+    }
+  ]
+}
