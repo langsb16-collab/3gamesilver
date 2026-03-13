@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@layer utilities {
+  @keyframes pulse {
+    0%, 100% { opacity: 0.2; }
+    50% { opacity: 0.8; }
+  }
+}
+
+body {
+  @apply bg-slate-50 text-slate-900 antialiased;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
